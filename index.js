@@ -42,7 +42,7 @@ const customMiddleware = require("./config/middleware");
 //Requires the Passport Local Strategy used for the Authentication
 const passportLocal = require("./config/passport-local-strategy");
 //Requires the Passport Google OAuth-2 Strategy used for the Authentication
-const passportGoogle = require("./config/passport-google-oauth2-strategy");
+// const passportGoogle = require("./config/passport-google-oauth2-strategy");
 
 //Middleware - CORS
 app.use(cors());
